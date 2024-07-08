@@ -3,7 +3,7 @@ helm:
   releaseName: open-telemetry-operator
   chart: opentelemetry-operator
   version: 0.62.0
-  repo: https://susemanager.suse/pub/helm
+  repo: https://open-telemetry.github.io/opentelemetry-helm-charts
 targetCustomizations:
 - name: local
   helm:

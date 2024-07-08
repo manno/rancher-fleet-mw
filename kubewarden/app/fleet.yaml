@@ -6,7 +6,7 @@ helm:
   releaseName: kubewarden-controller
   chart: kubewarden-controller
   version: 2.1.0
-  repo: https://susemanager.suse/pub/helm
+  repo: https://charts.kubewarden.io
 
 
 diff:
@@ -34,7 +34,7 @@ diff:
 
       #      nonReadyResources:
       #      - bundleState: Modified
-      #        modifiedStatus: 
+      #        modifiedStatus:
       #        - apiVersion: opentelemetry.io/v1alpha1
       #          kind: OpenTelemetryCollector
       #          name: kubewarden

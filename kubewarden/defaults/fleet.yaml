@@ -7,7 +7,7 @@ helm:
   releaseName: kubewarden-defaults
   chart: kubewarden-defaults
   version: 2.0.3
-  repo: https://susemanager.suse/pub/helm
+  repo: https://charts.kubewarden.io
   valuesFiles:
   - kubewarden-defaults-local-values.yaml
 targetCustomizations:
