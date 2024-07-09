@@ -1,7 +1,7 @@
 defaultNamespace: kubewarden
 dependsOn:
-  - name: kubewarden-crd
-  - name: kubewarden-issuer
+  - name: kwrepo-kubewarden-crd
+  - name: kwrepo-kubewarden-issuer
 helm:
   releaseName: kubewarden-controller
   chart: kubewarden-controller

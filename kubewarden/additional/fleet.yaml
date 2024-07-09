@@ -1,8 +1,8 @@
 defaultNamespace: kubewarden
 dependsOn:
-  - name: kubewarden-crd
+  - name: kwrepo-kubewarden-crd
 #  - name: kubewarden-app
-  - name: kubewarden-defaults
+  - name: kwrepo-kubewarden-defaults
 helm:
   releaseName: kubewarden-additional
 targetCustomizations:

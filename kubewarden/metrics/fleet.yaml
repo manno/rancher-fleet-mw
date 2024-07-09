@@ -1,3 +1,6 @@
 defaultNamespace: kubewarden
 helm:
   releaseName: kubewarden-metrics
+
+targetCustomizations:
+  - doNotDeploy: true
